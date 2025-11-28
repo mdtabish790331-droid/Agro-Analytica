@@ -5,41 +5,41 @@ Agro Analytica is a smart agriculture assistant that combines Machine Learning, 
 <br>
 This system predicts:
 <br>
-✅ Best crop to grow based on soil & weather
+.✅ Best crop to grow based on soil & weather
 <br>
-✅ Live crop market prices (from data.gov.in)
+.✅ Live crop market prices (from data.gov.in)
 <br>
-✅ AI expert advice from Google Gemini
+.✅ AI expert advice from Google Gemini
 <br>
-✅ Plant disease detection (via Flask portal or direct upload)
+.✅ Plant disease detection (via Flask portal or direct upload)
 <br>
 🚀 Features
 <br>
 1️⃣ Crop Recommendation System
 <br>
-Uses Random Forest ML Model
+.Uses Random Forest ML Model
 <br>
-Inputs automatically fetched based on village:
+.Inputs automatically fetched based on village:
 <br>
-Nitrogen (N)
+.Nitrogen (N)
 <br>
-Phosphorus (P)
+.Phosphorus (P)
 <br>
-Potassium (K)
+.Potassium (K)
 <br>
-pH Level
+.pH Level
 <br>
-Temperature
+.Temperature
 <br>
-Humidity
+.Humidity
 <br>
-Rainfall
+.Rainfall
 <br>
-Top 3 crop suggestions with confidence
+.Top 3 crop suggestions with confidence
 <br>
-Fetches Live Market Price from Data.gov.in API
+.Fetches Live Market Price from Data.gov.in API
 <br>
-Provides AI Expert Analysis powered by Google Gemini
+.Provides AI Expert Analysis powered by Google Gemini
 <br>
 2️⃣ Plant Disease Detection
 <br>
@@ -47,24 +47,24 @@ Two modes available:
 <br>
 A. Web Portal (Flask Server)
 <br>
-Runs a lightweight Flask server on port 5000
+.Runs a lightweight Flask server on port 5000
 <br>
-Allows plant leaf image upload
+.Allows plant leaf image upload
 <br>
-Returns:
+.Returns:
 <br>
-Plant type
+ .Plant type
 <br>
-Disease name
+ .Disease name
 <br>
-Confidence score
+ .Confidence score
 <br>
-Healthy / unhealthy status
+ .Healthy / unhealthy status
 <br>
 B. Direct Upload (No Server Needed)
 <br>
-Upload an image directly inside Streamlit
+ .Upload an image directly inside Streamlit
 <br>
-Performs mock disease detection
+ .Performs mock disease detection
 <br>
-Gives actionable recommendations
+ .Gives actionable recommendations
